@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  color: #1E3A3B;
 }
 
 .header {
@@ -22,15 +23,17 @@ body {
 
 .section-accent{
   background-color: #D598FA;
-  color: #66F7FA;
+  color: #1E3A3B;
 }
 
 .section-content {
   padding-left: 1rem;
+  color: #3E797A;
 }
 .stunning-section {
   font-size: 1.2rem;
   font-style: italic;
+  color:#66F7FA;
 }
 
 .vacation-section, .stunning-section {
@@ -47,4 +50,53 @@ body {
 
 .vacation-list-item:last-child {
   margin: 0;
+}
+
+.contact-section {
+  margin: 2rem 0;
+}
+
+.input {
+  border: 1px solid white;
+  outline: none;
+  padding: .5em;
+  font-size: 1rem;
+  border-radius: .2em;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.input:focus {
+  border-color: #D598FA;
+  box-shadow: 0 0 5px 0 #D598FA;
+}
+.input-no-resize {
+  resize: none;
+}
+
+.btn {
+  background-color: hsl(277, 90.7%, 78.8%);
+  border: 2px solid  hsl(277, 90.7%, 58.8%);
+  border-radius: .3em;
+  cursor: pointer;
+  padding: .5em 1em;
+  outline: none;
+  color: #66F7FA;
+}
+
+.btn:hover, btn:focus {
+  background-color: hsl(277, 90.7%, 68.8%);
+  box-shadow:0 0 5px 0 hsl(277, 90.7%, 48.8%);
+}
+
+.contact-text {
+  color: #3E797A;
+}
+
+.footer {
+  background-color: #D598FA;
+  color: #E4FA73;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  text-align: center;
 }
